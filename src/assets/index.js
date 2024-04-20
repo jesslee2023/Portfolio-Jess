@@ -10,7 +10,8 @@ import backend from './icons/backend.png';
 import ux from './icons/ux.png';
 import frontend from './icons/frontend.png';
 import prototyping from './icons/prototyping.png';
-import github from './icons/github.png';
+// import github from './icons/github.png';
+import github from './github-3.png';
 import close from './icons/close.png';
 import download from './icons/download.png';
 import downloadHover from './icons/downloadHover.png';
@@ -44,6 +45,7 @@ import halloween from './projects/halloween.png';
 import pencilpaws from './projects/pencilpaws.png';
 import spaceInvader from './projects/space-invader.png';
 import todolist from './projects/todolist.png';
+import linkedin from './linkedin.svg';
 
 export {
   bwmap,
@@ -87,4 +89,5 @@ export {
   pencilpaws,
   spaceInvader,
   todolist,
+  linkedin,
 };

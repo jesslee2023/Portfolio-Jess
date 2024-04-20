@@ -280,4 +280,9 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+const contact = {
+  linkedin: 'https://www.linkedin.com/in/jingping-li/',
+  github: 'https://github.com/jesslee2023',
+};
+
+export { services, technologies, experiences, projects, contact };
