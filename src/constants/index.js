@@ -23,6 +23,7 @@ import {
   pencilpaws,
   spaceInvader,
   hyperIsland,
+  todolist,
 } from '../assets';
 
 export const navLinks = [
@@ -254,6 +255,28 @@ const projects = [
     image: spaceInvader,
     repo: 'https://github.com/jesslee2023/S6game',
     demo: 'https://space-invader-jess.netlify.app',
+  },
+  {
+    id: 'project-6',
+    name: 'To Do List',
+    description: 'This is a todo list web application.',
+    tags: [
+      {
+        name: 'React',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Tailwind CSS',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Express',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: todolist,
+    repo: 'https://github.com/jesslee2023/mytodolist',
+    demo: 'https://mytodolist-olive.vercel.app',
   },
 ];
 

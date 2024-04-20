@@ -43,6 +43,7 @@ import recipe from './projects/recipe.png';
 import halloween from './projects/halloween.png';
 import pencilpaws from './projects/pencilpaws.png';
 import spaceInvader from './projects/space-invader.png';
+import todolist from './projects/todolist.png';
 
 export {
   bwmap,
@@ -85,4 +86,5 @@ export {
   halloween,
   pencilpaws,
   spaceInvader,
+  todolist,
 };
