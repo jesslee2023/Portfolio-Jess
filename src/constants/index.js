@@ -24,265 +24,288 @@ import {
   spaceInvader,
   hyperIsland,
   todolist,
-} from '../assets';
+  slime,
+} from "../assets";
 
 export const navLinks = [
   {
-    id: 'about',
-    title: 'About',
+    id: "about",
+    title: "About",
   },
   {
-    id: 'projects',
-    title: 'Projects',
+    id: "projects",
+    title: "Projects",
   },
   {
-    id: 'contact',
-    title: 'Contact',
+    id: "contact",
+    title: "Contact",
   },
 ];
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: "Frontend Developer",
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: "Backend Developer",
     icon: backend,
   },
   {
-    title: 'Full Stack Developer',
+    title: "Full Stack Developer",
     icon: prototyping,
   },
   {
-    title: 'UI/UX Design',
+    title: "UI/UX Design",
     icon: ux,
   },
 ];
 
 const technologies = [
   {
-    name: 'HTML 5',
+    name: "HTML 5",
     icon: html,
   },
   {
-    name: 'CSS 3',
+    name: "CSS 3",
     icon: css,
   },
   {
-    name: 'JavaScript',
+    name: "JavaScript",
     icon: javascript,
   },
   {
-    name: 'TypeScript',
+    name: "TypeScript",
     icon: typescript,
   },
   {
-    name: 'React JS',
+    name: "React JS",
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
+    name: "Redux Toolkit",
     icon: redux,
   },
   {
-    name: 'Tailwind CSS',
+    name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: 'Node JS',
+    name: "Node JS",
     icon: nodejs,
   },
   {
-    name: 'Rails',
+    name: "Rails",
     icon: rubyrails,
   },
   {
-    name: 'graphql',
+    name: "graphql",
     icon: graphql,
   },
   {
-    name: 'postgresql',
+    name: "postgresql",
     icon: postgresql,
   },
   {
-    name: 'git',
+    name: "git",
     icon: git,
   },
   {
-    name: 'figma',
+    name: "figma",
     icon: figma,
   },
   {
-    name: 'docker',
+    name: "docker",
     icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Hyper Island',
+    title: "Front-End Developer",
+    company_name: "Hyper Island",
     icon: hyperIsland,
-    iconBg: '#333333',
-    date: 'Aug 2023 - Oct 2023',
+    iconBg: "#333333",
+    date: "Aug 2023 - Oct 2023",
   },
   {
-    title: 'Back-End Developer',
-    company_name: 'Hyper Island',
+    title: "Back-End Developer",
+    company_name: "Hyper Island",
     icon: hyperIsland,
-    iconBg: '#333333',
-    date: 'Oct 2023 - Dec 2023',
+    iconBg: "#333333",
+    date: "Oct 2023 - Dec 2023",
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Hyper Island',
+    title: "Full Stack Developer",
+    company_name: "Hyper Island",
     icon: hyperIsland,
-    iconBg: '#333333',
-    date: 'Jan 2024 - Present',
+    iconBg: "#333333",
+    date: "Jan 2024 - Present",
   },
 ];
 
 const projects = [
   {
-    id: 'project-1',
-    name: 'Online Library',
-    description:
-      'Web-based platform that allows users to search, view and buy ebooks.',
+    id: "project-1",
+    name: "Slime Agency",
+    description: "Web-based platform for musician's Portfolios.",
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
+        name: "react",
+        color: "blue-text-gradient",
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient',
+        name: "tailwind CSS",
+        color: "green-text-gradient",
       },
       {
-        name: 'bootsrap',
-        color: 'pink-text-gradient',
+        name: "Contentful CMS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: slime,
+    repo: "",
+    demo: "https://slimeagency.com/",
+  },
+  {
+    id: "project-7",
+    name: "Online Library",
+    description:
+      "Web-based platform that allows users to search, view and buy ebooks.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootsrap",
+        color: "pink-text-gradient",
       },
     ],
     image: library,
-    repo: 'https://github.com/jesslee2023/team-7-react-project',
-    demo: 'https://online-library-jess-react.netlify.app',
+    repo: "https://github.com/jesslee2023/team-7-react-project",
+    demo: "https://online-library-jess-react.netlify.app",
   },
   {
-    id: 'project-2',
-    name: 'Recipe Finder',
+    id: "project-2",
+    name: "Recipe Finder",
     description:
-      'A platform displays varities of recipes and views the details for different recipes.',
+      "A platform displays varities of recipes and views the details for different recipes.",
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
+        name: "react",
+        color: "blue-text-gradient",
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient',
+        name: "restapi",
+        color: "green-text-gradient",
       },
       {
-        name: 'bootstrap',
-        color: 'pink-text-gradient',
+        name: "bootstrap",
+        color: "pink-text-gradient",
       },
     ],
     image: recipe,
-    repo: 'https://github.com/jesslee2023/Team6-collaborative-work',
-    demo: 'https://hungry-chief-team6.netlify.app',
+    repo: "https://github.com/jesslee2023/Team6-collaborative-work",
+    demo: "https://hungry-chief-team6.netlify.app",
   },
   {
-    id: 'project-3',
-    name: 'Hallotween Town',
-    description: 'This is a landing page of halloween town website.',
+    id: "project-3",
+    name: "Hallotween Town",
+    description: "This is a landing page of halloween town website.",
     tags: [
       {
-        name: 'html',
-        color: 'blue-text-gradient',
+        name: "html",
+        color: "blue-text-gradient",
       },
       {
-        name: 'css',
-        color: 'green-text-gradient',
+        name: "css",
+        color: "green-text-gradient",
       },
       {
-        name: 'javascript',
-        color: 'pink-text-gradient',
+        name: "javascript",
+        color: "pink-text-gradient",
       },
     ],
     image: halloween,
-    repo: 'https://github.com/jesslee2023/Halloween-town',
-    demo: 'https://halloween-jess.netlify.app',
+    repo: "https://github.com/jesslee2023/Halloween-town",
+    demo: "https://halloween-jess.netlify.app",
   },
   {
-    id: 'project-4',
-    name: 'Draw and Guess',
+    id: "project-4",
+    name: "Draw and Guess",
     description: `A website is dedicated to show the game of Draw and Guess.`,
     tags: [
       {
-        name: 'html',
-        color: 'blue-text-gradient',
+        name: "html",
+        color: "blue-text-gradient",
       },
       {
-        name: 'css',
-        color: 'green-text-gradient',
+        name: "css",
+        color: "green-text-gradient",
       },
       {
-        name: 'javascript',
-        color: 'pink-text-gradient',
+        name: "javascript",
+        color: "pink-text-gradient",
       },
     ],
     image: pencilpaws,
-    repo: 'https://github.com/jesslee2023/PencilPawsBeta',
-    demo: 'https://jesslee-pencilpaws.netlify.app',
+    repo: "https://github.com/jesslee2023/PencilPawsBeta",
+    demo: "https://jesslee-pencilpaws.netlify.app",
   },
   {
-    id: 'project-5',
-    name: 'Space Invader',
-    description: 'This is a game website named Space Invader.',
+    id: "project-5",
+    name: "Space Invader",
+    description: "This is a game website named Space Invader.",
     tags: [
       {
-        name: 'html',
-        color: 'blue-text-gradient',
+        name: "html",
+        color: "blue-text-gradient",
       },
       {
-        name: 'css',
-        color: 'green-text-gradient',
+        name: "css",
+        color: "green-text-gradient",
       },
       {
-        name: 'javascript',
-        color: 'pink-text-gradient',
+        name: "javascript",
+        color: "pink-text-gradient",
       },
     ],
     image: spaceInvader,
-    repo: 'https://github.com/jesslee2023/S6game',
-    demo: 'https://space-invader-jess.netlify.app',
+    repo: "https://github.com/jesslee2023/S6game",
+    demo: "https://space-invader-jess.netlify.app",
   },
   {
-    id: 'project-6',
-    name: 'To Do List',
-    description: 'This is a todo list web application.',
+    id: "project-6",
+    name: "To Do List",
+    description: "This is a todo list web application.",
     tags: [
       {
-        name: 'React',
-        color: 'blue-text-gradient',
+        name: "React",
+        color: "blue-text-gradient",
       },
       {
-        name: 'Tailwind CSS',
-        color: 'green-text-gradient',
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
       },
       {
-        name: 'Express',
-        color: 'pink-text-gradient',
+        name: "Express",
+        color: "pink-text-gradient",
       },
     ],
     image: todolist,
-    repo: 'https://github.com/jesslee2023/mytodolist',
-    demo: 'https://mytodolist-olive.vercel.app',
+    repo: "https://github.com/jesslee2023/mytodolist",
+    demo: "https://mytodolist-olive.vercel.app",
   },
 ];
 
 const contact = {
-  linkedin: 'https://www.linkedin.com/in/jingping-li/',
-  github: 'https://github.com/jesslee2023',
+  linkedin: "https://www.linkedin.com/in/jingping-li/",
+  github: "https://github.com/jesslee2023",
 };
 
 export { services, technologies, experiences, projects, contact };
